@@ -59,9 +59,9 @@ function App() {
           </div>
         </div>
         <div className="mbr-arrow hidden-sm-down" aria-hidden="true">
-          <a href="JavaScript:Void(0)" onClick={(e) => { moveToNext(e)}}>
+          <span onClick={(e) => { moveToNext(e)}}>
             <i className="mbri-down mbr-iconfont"></i>
-          </a>
+          </span>
         </div>
       </section>
       <section className="mbr-section content4 cid-qIieWoha50" id="content4-2" style={{ paddingTop: "80px", paddingBottom: "50px"}}>
@@ -70,7 +70,7 @@ function App() {
             <div className="title col-12 col-md-8">
               <h2 className="align-center pb-3 mbr-fonts-style display-1">Amrinder Singh</h2>
               <h3 className="align-center mbr-light mbr-fonts-style display-5">
-                S/o Sdn. Kuldeep Kaur & S. Charnajeet Singh
+                S/o Sdn. Kuldeep Kaur & S. Charanjeet Singh
               </h3>
             </div>
           </div>
@@ -92,7 +92,7 @@ function App() {
             <div className="title col-12 col-md-8">
               <h2 className="align-center pb-3 mbr-fonts-style display-1">Gurdeep Kaur</h2>
               <h3 className="align-center mbr-light mbr-fonts-style display-5">
-                D/o Sdn. maata Kaur & S. Baljeet Singh </h3>
+                D/o Sdn. Gurminder Kaur & S. Baljit Singh </h3>
             </div>
           </div>
         </div>
@@ -213,15 +213,15 @@ function App() {
           <div className="media-container-row align-center mbr-white">
             <div className="row row-copirayt">
               <p className="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                © Copyright 2021 Gurpreet Singh - All Rights Reserved
+                © Copyright 2021 Amrinder Singh - All Rights Reserved
                     <br />
-                Made with lots of{' '} <span className="fa fa-heart pulse2"></span>{' '}for his Friend
-                </p>
+                Made with lots of{' '} <span className="fa fa-heart pulse2"></span>{' '}for you.
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <div id="scrollToTop" className="scrollToTop mbr-arrow-up"><a style={{ "textAlign": "center" }}><i></i></a></div>
+      <div id="scrollToTop" className="scrollToTop mbr-arrow-up"><span style={{ "textAlign": "center" }}><i></i></span></div>
       <input name="animation" type="hidden" />
     </Fragment>
   );
