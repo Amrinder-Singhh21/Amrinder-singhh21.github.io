@@ -51,10 +51,10 @@ function App() {
                 right in the middle of an ordinary life,
                     <br />
                 love gives us a fairy tale
-                </h2>
+              </h2>
               <h3 className="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
                 October 17, 2021
-                </h3>
+              </h3>
             </div>
           </div>
         </div>
@@ -134,20 +134,20 @@ function App() {
 
                       <div className="media-body">
                         <h4 className="card-title mbr-fonts-style display-5">
-                          Embassy</h4>
+                          Embassy Palace</h4>
                       </div>
                     </div>
 
                     <div className="card-box">
                       <p className="block-text mbr-fonts-style display-5" style={{fontWeight: '600'}}>
-                        Bhaiwala Chowk
+                        Bhaiwala Chowk, Ferozepur Road,
                           <br />
                         Opp Park Plaza,
                           <br />
                         Ludhiana
                           <br />
                         <br />
-                        <a href="#map1-b">Check on Map</a>
+                        {/* <a href="#map1-b">Check on Map</a> */}
                       </p>
                     </div>
                   </div>
