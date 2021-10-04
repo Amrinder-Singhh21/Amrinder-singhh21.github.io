@@ -59,9 +59,9 @@ function App() {
           </div>
         </div>
         <div className="mbr-arrow hidden-sm-down" aria-hidden="true">
-          <span onClick={(e) => { moveToNext(e)}}>
+          <a href="#" onClick={(e) => { moveToNext(e)}}>
             <i className="mbri-down mbr-iconfont"></i>
-          </span>
+          </a>
         </div>
       </section>
       <section className="mbr-section content4 cid-qIieWoha50" id="content4-2" style={{ paddingTop: "80px", paddingBottom: "50px"}}>
@@ -134,7 +134,7 @@ function App() {
 
                       <div className="media-body">
                         <h4 className="card-title mbr-fonts-style display-5">
-                          Embassy Palace</h4>
+                          The Retreat Banquets</h4>
                       </div>
                     </div>
 
