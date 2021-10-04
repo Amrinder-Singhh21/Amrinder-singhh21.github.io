@@ -59,7 +59,7 @@ function App() {
           </div>
         </div>
         <div className="mbr-arrow hidden-sm-down" aria-hidden="true">
-          <a href="#" onClick={(e) => { moveToNext(e)}}>
+          <a href={() => {}} onClick={(e) => { moveToNext(e)}}>
             <i className="mbri-down mbr-iconfont"></i>
           </a>
         </div>
@@ -221,7 +221,7 @@ function App() {
           </div>
         </div>
       </section>
-      <div id="scrollToTop" className="scrollToTop mbr-arrow-up"><span style={{ "textAlign": "center" }}><i></i></span></div>
+      <div id="scrollToTop" className="scrollToTop mbr-arrow-up"><a href={() => {}} style={{ "textAlign": "center" }}><i></i></a></div>
       <input name="animation" type="hidden" />
     </Fragment>
   );
