@@ -115,8 +115,8 @@ function App() {
         <div className="container">
           <div className="col-md-12">
             <div className="media-container-row">
-              <div className="mbr-figure" style={{ "width": "50%" }}>
-                <img src="assets/images/abc.jpg" alt="Mobirise" title="" />
+              <div className="mbr-figure" style={{ "width": "50%", display: 'flex', justifyContent: 'center' }}>
+                <img src="assets/images/abc.jpg" alt="Mobirise" title="" style={{ height: '500px', width: '300px' }}/>
               </div>
               <div className=" align-left aside-content">
                 <div className="block-content">
