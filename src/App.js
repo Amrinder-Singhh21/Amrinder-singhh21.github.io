@@ -20,7 +20,7 @@ function App() {
   const [expire, setExpire] = useState(false);
 
   useEffect(() => {
-    const countDownDate = new Date("Oct 17, 2021").getTime();
+    const countDownDate = new Date("Jan 31, 2023").getTime();
     var x = setInterval(function () {
       const now = new Date().getTime();
       const distance = countDownDate - now;
@@ -53,7 +53,7 @@ function App() {
                 love gives us a fairy tale
               </h2>
               <h3 className="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
-                October 17, 2021
+                January 31, 2023
               </h3>
             </div>
           </div>
@@ -68,9 +68,9 @@ function App() {
         <div className="container">
           <div className="media-container-row">
             <div className="title col-12 col-md-8">
-              <h2 className="align-center pb-3 mbr-fonts-style display-1">Amrinder Singh</h2>
+              <h2 className="align-center pb-3 mbr-fonts-style display-1">Shivam Sidana</h2>
               <h3 className="align-center mbr-light mbr-fonts-style display-5">
-                S/o Sdn. Kuldeep Kaur & S. Charanjeet Singh
+                S/o Smt. Adarsh Sidana & Shri. Satish Kumar Sidana
               </h3>
             </div>
           </div>
@@ -90,9 +90,9 @@ function App() {
         <div className="container">
           <div className="media-container-row">
             <div className="title col-12 col-md-8">
-              <h2 className="align-center pb-3 mbr-fonts-style display-1">Gurdeep Kaur</h2>
+              <h2 className="align-center pb-3 mbr-fonts-style display-1">Arpita Sharma</h2>
               <h3 className="align-center mbr-light mbr-fonts-style display-5">
-                D/o Sdn. Gurminder Kaur & S. Baljit Singh </h3>
+                D/o Smt. Neena Sharma & Shri. Ajay Sharma </h3>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ function App() {
                     <div className="media">
                       <div className="media-body">
                         <h4 className="card-title mbr-fonts-style display-2">
-                          Sunday, October 17, 2021</h4>
+                          Tuesday, January 31, 2023</h4>
                       </div>
                     </div>
                   </div>
@@ -134,17 +134,17 @@ function App() {
 
                       <div className="media-body">
                         <h4 className="card-title mbr-fonts-style display-5">
-                          The Retreat Banquets</h4>
+                          The Zorba</h4>
                       </div>
                     </div>
 
                     <div className="card-box">
                       <p className="block-text mbr-fonts-style display-5" style={{fontWeight: '600'}}>
-                        Bhaiwala Chowk, Ferozepur Road,
+                        Abohar hanumangarh Road,
                           <br />
-                        Opp Park Plaza,
+                        Opp BSF,
                           <br />
-                        Ludhiana
+                        Abohar
                           <br />
                         <br />
                         {/* <a href="#map1-b">Check on Map</a> */}
@@ -168,7 +168,7 @@ function App() {
           <div className="hoursCountdown" title="Hours"></div>
           <div className="minutesCountdown" title="Minutes"></div>
           <div className="secondsCountdown" title="Seconds"></div>
-          <div className="countdown pt-1 mt-2" data-due-date="2021/03/07">
+          <div className="countdown pt-1 mt-2" data-due-date="2023/01/31">
             <div className="row">
               <div className="col-xs-3 col-sm-3 col-md-3">
                 <span className="number-wrap">
@@ -213,9 +213,9 @@ function App() {
           <div className="media-container-row align-center mbr-white">
             <div className="row row-copirayt">
               <p className="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                © Copyright 2021 Amrinder Singh - All Rights Reserved
-                    <br />
-                Made with lots of{' '} <span className="fa fa-heart pulse2"></span>{' '}for you.
+                {/* © Copyright 2021 Shivam Sidana - All Rights Reserved
+                    <br /> */}
+                Made with lots of{'  '} <span className="fa fa-heart pulse2"></span>{' '}for you.
               </p>
             </div>
           </div>
